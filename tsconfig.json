@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"lib": ["es2020.string"],
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"target": "es2019",
+		"sourceMap": false,
+		"inlineSourceMap": true,
+		"sourceRoot": "src",
+		"outDir": "./dist",
+		"declaration": false,
+		"removeComments": false,
+		"alwaysStrict": true,
+		"allowSyntheticDefaultImports": true,
+		"pretty": true
+	}
+}

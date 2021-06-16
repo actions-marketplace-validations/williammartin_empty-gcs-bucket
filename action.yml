@@ -1,0 +1,18 @@
+name: Empty GCS Bucket Contents
+description: Empty GCS Buckets Contents
+author: will@story.ai
+
+inputs:
+  credentials:
+    description: |-
+      Required service account key to use for authentication to GCS. This should be the JSON
+      formatted private key which can be exported from the Cloud Console.
+    required: true
+  bucket:
+    description: |-
+      GCS bucket name to empty.
+    required: true
+ 
+runs:
+  using: "node12"
+  main: "dist/index.js"
